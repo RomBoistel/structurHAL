@@ -33,17 +33,18 @@ Le fichier **Parametres_drawio.txt** contient les paramètres draw.io utilisés 
 # Disclaimer
 La macro a été développée sur Excel 2013 par un documentaliste. Il n'y a pas de garantie qu'elle fonctionne et les utilisateurs sont invités à se plonger dans le code.
 
+Un bug identifié qui fait que dans une condition précise et rare, une structure de recherche n'est pas bien rattachée à sa tutelle. Sera corrigé dans une MAJ.
+
 Si le portail HAL / AuréHAL rame ou est down, la macro ne pourra pas fonctionner.
 
 **Q.** Pourquoi la macro ne requête pas à la fois les structures ascendantes et descendantes de la structure de départ ?
 
-**R.** Pour chaque structure trouvée, la macro chercherait à la fois les mères et les filles, et ainsi de suite, jusqu'à parcourir toute l'arborescence d'AuréHAL. AuréHAL contient environ 500.000 structures ; beaucoup sont isolées, mais la macro plante au bout de quelques milliers de lignes.
-
+**R.** Pour chaque structure trouvée, la macro chercherait à la fois les mères et les filles, et ainsi de suite, jusqu'à parcourir toute l'arborescence d'AuréHAL. AuréHAL contient environ 500.000 structures ; beaucoup sont isolées, mais la macro plante au bout de quelques milliers de lignes.  
 L'arborescence descendante d'une institution ne dépasse pas quelques centaines de structures en général, l'arborescence montante d'une équipe de recherche bien moins.
 
 # Utilisation de la macro
 ## Requêter les métadonnées, créer l'arborescence
-Ouvrir le fichier Structures_AureHAL.xlsm
+Ouvrir le fichier **Structures_AureHAL.xlsm**
 
 Afficher l'onglet Développeur dans le ruban : Fichier --> Options --> Personnaliser le ruban
 
