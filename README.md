@@ -44,7 +44,7 @@ L'arborescence descendante d'une institution ne dépasse pas quelques centaines 
 
 # Utilisation de la macro
 ## Requêter les métadonnées, créer l'arborescence
-Ouvrir le fichier **StructHAL.xlsm**
+Ouvrir le fichier **structurHAL.xlsm**
 
 Afficher l'onglet Développeur dans le ruban : Fichier --> Options --> Personnaliser le ruban
 
