@@ -1,4 +1,4 @@
-# Résumé de la macro structHAL.xlsm
+# Résumé de la macro structurHAL.xlsm
 Macro VBA pour requêter toutes les structures parentes ou filles d'une structure initiale dans AureHAL, et visualiser leur arborescence dans draw.io.
 
 ![structures hal navier](https://cloud.githubusercontent.com/assets/26523540/24092867/51ba6d9e-0d51-11e7-8666-962e52b44591.png)
