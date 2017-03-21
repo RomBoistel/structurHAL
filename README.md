@@ -1,4 +1,4 @@
-# Résumé de la macro structures-AureHAL
+# Résumé de la macro structHAL.xlsm
 Macro VBA pour requêter toutes les structures parentes ou filles d'une structure initiale dans AureHAL, et visualiser leur arborescence dans draw.io.
 
 ![structures hal navier](https://cloud.githubusercontent.com/assets/26523540/24092867/51ba6d9e-0d51-11e7-8666-962e52b44591.png)
@@ -33,9 +33,9 @@ Le fichier **Parametres_drawio.txt** contient les paramètres draw.io utilisés 
 # Disclaimer
 La macro a été développée sur Excel 2013 par un documentaliste. Il n'y a pas de garantie qu'elle fonctionne et les utilisateurs sont invités à se plonger dans le code.
 
-Un bug identifié qui fait que dans une condition précise et rare, une structure de recherche n'est pas bien rattachée à sa tutelle. Sera corrigé dans une MAJ.
-
 Si le portail HAL / AuréHAL rame ou est down, la macro ne pourra pas fonctionner.
+
+Si la macro est lancée depuis une Dropbox, les fichiers temporaires ne seront peut-être pas tous supprimés automatiquement (sans doute à cause de la lenteur de la synchro Dropbox).
 
 **Q.** Pourquoi la macro ne requête pas à la fois les structures ascendantes et descendantes de la structure de départ ?
 
@@ -44,7 +44,7 @@ L'arborescence descendante d'une institution ne dépasse pas quelques centaines 
 
 # Utilisation de la macro
 ## Requêter les métadonnées, créer l'arborescence
-Ouvrir le fichier **Structures_AureHAL.xlsm**
+Ouvrir le fichier **StructHAL.xlsm**
 
 Afficher l'onglet Développeur dans le ruban : Fichier --> Options --> Personnaliser le ruban
 
@@ -54,7 +54,7 @@ Activer Microsoft Forms 2.0 Object Library si ce n'est pas activé automatiqueme
 
 Rentrer l'ID d'une structure AuréHAL (docid) dans la case A2, ou plusieurs ID en A2, A3, A4 etc.
 
-Lancer la première macro : Onglet Développeur --> Macros (ou Alt-F8) --> Sélectionner **Structures_AureHAL.xlsm!Structures_AureHAL.Structures_AureHAL** --> Exécuter.
+Lancer la première macro : Onglet Développeur --> Macros (ou Alt-F8) --> Sélectionner **StructurHAL.xlsm!StructurHAL.StructurHAL** --> Exécuter.
 
 Une boite de dialogue s'ouvre. Indiquer le sens de la recherche.
 - Chercher les **structures parentes**, par exemple en partant d'une équipe de recherche, pour récupérer tous les laboratoires de tutelle, et toutes les institutions tutelles des laboratoires (arborescence ascendante).
@@ -64,7 +64,7 @@ Indiquer la **ligne de démarrage** (par défaut 2). C'est utile si la macro a �
 
 ## Visualiser l'arborescence : créer le fichier CSV et l'importer dans draw.io
 Une fois la macro Structures_AureHAL terminée d'exécuter, lancer la seconde macro :
-Onglet Développeur --> Macros (ou Alt-F8) --> Sélectionner **Structures_AureHAL.xlsm!cleanDrawio.cleanDrawio** --> Exécuter.
+Onglet Développeur --> Macros (ou Alt-F8) --> Sélectionner **StructurHAL.xlsm!cleanDrawio.cleanDrawio** --> Exécuter.
 
 Une fois la macro cleanDrawio terminée d'exécuter, ouvrir le répertoire du fichier des macros. Un nouveau fichier **Import_Drawio.csv** est apparu.
 - Ouvrir le fichier Import_Drawio.csv dans un éditeur de code comme Notepad++
