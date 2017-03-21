@@ -21,11 +21,11 @@ Les métadonnées requêtées pour chaque structure sont :
 
 # Description des fichiers
 Le script est constitué de 2 fichiers :
-- Structures_AureHAL.xlsm
+- structurHAL.xlsm
 - Parametres_drawio.txt
 
-Le fichier **Structures_AureHAL.xlsm** contient 2 macros à lancer successivement :
-- Structures_AureHAL : requête les métadonnées des structures initiales et celles des structures ascendantes ou descendantes.
+Le fichier **structurHAL.xlsm** contient 2 macros à lancer successivement :
+- structurHAL : requête les métadonnées des structures initiales et celles des structures ascendantes ou descendantes.
 - cleanDrawio : crée le fichier CSV à importer dans draw.io pour visualiser l'arborescence.
 
 Le fichier **Parametres_drawio.txt** contient les paramètres draw.io utilisés par la macro cleanDrawio. Il doit se trouver dans le même répertoire.
