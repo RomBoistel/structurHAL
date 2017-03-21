@@ -63,7 +63,7 @@ Une boite de dialogue s'ouvre. Indiquer le sens de la recherche.
 Indiquer la **ligne de démarrage** (par défaut 2). C'est utile si la macro a été lancée une fois, et qu'on rajoute à la fin de la liste générée, des ID supplémentaires pour créer une seconde arborescence dans le même fichier.
 
 ## Visualiser l'arborescence : créer le fichier CSV et l'importer dans draw.io
-Une fois la macro Structures_AureHAL terminée d'exécuter, lancer la seconde macro :
+Une fois la macro StructurHAL terminée d'exécuter, lancer la seconde macro :
 Onglet Développeur --> Macros (ou Alt-F8) --> Sélectionner **StructurHAL.xlsm!cleanDrawio.cleanDrawio** --> Exécuter.
 
 Une fois la macro cleanDrawio terminée d'exécuter, ouvrir le répertoire du fichier des macros. Un nouveau fichier **Import_Drawio.csv** est apparu.
