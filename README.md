@@ -42,6 +42,10 @@ Si la macro est lancée depuis une Dropbox, les fichiers temporaires ne seront p
 **R.** Pour chaque structure trouvée, la macro chercherait à la fois les mères et les filles, et ainsi de suite, jusqu'à parcourir toute l'arborescence d'AuréHAL. AuréHAL contient environ 500.000 structures ; beaucoup sont isolées, mais la macro plante au bout de quelques milliers de lignes.  
 L'arborescence descendante d'une institution ne dépasse pas quelques centaines de structures en général, l'arborescence montante d'une équipe de recherche bien moins.
 
+**Q.** Pourquoi les colonnes de la macro se décalent lorsqu'on la relance à partir de telle ligne ?
+
+**R.** La macro a été relancée à partir d'une ligne qui était déjà remplie (ou à partir d'une ligne qui précède d'autres lignes déjà remplies). Une vérification sera ajoutée lors d'une prochaine mise à jour.
+
 # Utilisation de la macro
 ## Requêter les métadonnées, créer l'arborescence
 Ouvrir le fichier **structurHAL.xlsm**
