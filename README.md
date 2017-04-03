@@ -3,7 +3,7 @@ Macro VBA pour requêter toutes les structures parentes ou filles d'une structur
 
 ![structures hal navier](https://cloud.githubusercontent.com/assets/26523540/24092867/51ba6d9e-0d51-11e7-8666-962e52b44591.png)
 
-À partir de l'identifiant AuréHAL d'une ou plusieurs structures (docid), la macro va requêter dans l'API leurs métadonnées, puis rechercher leurs structures mères **ou** filles, requêter leurs métadonnées, et ainsi de suite. La macro pacourt donc toute l'arborescence ascendante ou descendante des structures initiales.
+À partir de l'identifiant AuréHAL d'une ou plusieurs structures (docid), la macro va requêter dans l'API leurs métadonnées, puis rechercher leurs structures mères **ou** filles, requêter leurs métadonnées, et ainsi de suite. La macro parcourt donc toute l'arborescence ascendante ou descendante des structures initiales.
 
 La macro permet ensuite de visualiser cette arborescence dans l'outil en ligne **draw.io** (https://www.draw.io/), en créant un fichier CSV à importer dans l'outil. La visualisation peut ensuite être sauvegardée sur un compte Google Drive et être exportée sous différents formats d'image.
 
