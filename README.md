@@ -76,3 +76,6 @@ Une fois la macro cleanDrawio terminée d'exécuter, ouvrir le répertoire du fi
 - Aller sur le site https://www.draw.io/
 - Créer un nouveau diagram
 - Importer le contenu du fichier Import_Drawio.csv : File --> Import from --> CSV --> Supprimer le code d'exemple existant et coller tout le contenu du fichier Import_Drawio.csv --> Import
+
+# Citer
+Romain Boistel. (2017). RomBoistel/structurHAL: structurHAL first release [Data set]. Zenodo. http://doi.org/10.5281/zenodo.545823
