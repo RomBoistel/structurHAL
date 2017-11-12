@@ -1,3 +1,5 @@
+**_Les fichiers sont à télécharger avec le bouton vert "Clone or download" en haut à droite de la page.  
+Ne pas utiliser "Clic droit --> Enregistrer sous"._**
 # Résumé de la macro structurHAL.xlsm
 Macro VBA pour requêter toutes les structures parentes ou filles d'une structure initiale dans AureHAL, et visualiser leur arborescence dans draw.io.
 
