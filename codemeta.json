@@ -1,0 +1,39 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "applicationCategory": "Information Science",
+    "author": [
+        {
+            "id": "https://orcid.org/0000-0002-9837-8962",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Ecole nationale des ponts et chaussées"
+            },
+            "email": "romain.boistel@enpc.fr",
+            "familyName": "Boistel",
+            "givenName": "Romain"
+        },
+        {
+            "type": "Role",
+            "schema:author": "https://orcid.org/0000-0002-9837-8962",
+            "roleName": "Developer"
+        }
+    ],
+    "codeRepository": "https://github.com/RomBoistel/structurHAL",
+    "dateCreated": "2017-04-12",
+    "dateModified": "2018-03-27",
+    "datePublished": "2017-04-12",
+    "description": "Macro VBA pour requêter toutes les structures parentes ou filles d'une structure initiale dans AureHAL, et visualiser leur arborescence dans draw.io.",
+    "funder": {
+        "type": "Organization",
+        "name": "Ecole nationale des ponts et chaussées"
+    },
+    "identifier": "10.5281/zenodo.596322",
+    "license": "https://spdx.org/licenses/CC-BY-4.0",
+    "name": "structurHAL",
+    "programmingLanguage": "VBA",
+    "relatedLink": "https://zenodo.org/records/545823",
+    "releaseNotes": "Correction d'un bug.",
+    "version": "1.1"
+}
